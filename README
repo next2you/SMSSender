@@ -1,0 +1,44 @@
+SMSSender is an Address Book Plug-In working only on MacOSX 10.6. 
+It will allow sending SMS via BulkSMS (www.bulksms.com).
+
+WARNING: This code is alpha quality, and has not a lot of error checking, it works for me and some others, but
+may not work for you :-), feel free to contact me at via my email (user: fanta domain: samira.de)
+
+=== Prerequistes === 
+
+ * Works only on MacOSX 10.6
+ * You have to have Mail.app configured for sending email
+
+=== Setup on BulkSMS ===
+
+ * create an account with bulksms.com
+ * buy some SMS credits
+ * Define a sender identifier (this should be your telephone number, including country code, e.g. for germany and an eplus number: 491632342345)
+   * you will have to go through verification to be able to do this
+ * Now configure eMail-SMS: 
+   * add the email address you will be sending email from (configured in Mail.app, too)
+   * add a passcode for this email address
+ * You're all set to go
+
+=== Installation ===
+To use it, please download the SMSSender Bundle.pkg for a complete
+install. Doubleclick and install (will install in /Library/Address Book Plug-Ins)
+
+Now:
+ * Open Addressbook
+ * in an adddress book entry right click on the label (e.g. mobile or home or ...)
+ * select "Send SMS over bulkSMS"
+ * configure the 
+   * Email
+   * Password
+   * your sender ID
+ * now your ready to go
+
+=== Debugging ===
+ * SMS are sent via email via Mail.app
+ * You can view the SMS sent by looking at the Sent ordner of your Mail.app
+ 
+
+
+
+
