@@ -3,7 +3,7 @@
 //  SMSSender
 //
 //  Created by chris on 04.09.09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Copyright Christian van der Leeden 2009. All rights reserved.
 //
 
 #import <AddressBook/AddressBook.h>

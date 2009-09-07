@@ -270,8 +270,6 @@
 								<string>1ED78706FE9D4A0611CA0C5A</string>
 								<string>2E58F364FFB232C311CA0CBA</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>833D18FB1052FDE4003DF8DD</string>
-								<string>833D19121052FEB2003DF8DD</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
 							</array>
@@ -332,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>833D193A10530ADF003DF8DD</string>
+										<string>834F85061055C04B00991189</string>
 										<key>history</key>
 										<array>
 											<string>83F6963A10518F760000271F</string>
@@ -342,7 +340,7 @@
 											<string>833D191E1053048D003DF8DD</string>
 											<string>833D192B105307AD003DF8DD</string>
 											<string>833D192C105307AD003DF8DD</string>
-											<string>833D192410530666003DF8DD</string>
+											<string>833D193A10530ADF003DF8DD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +352,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {922, 457}}</string>
+								<string>{{0, 0}, {922, 451}}</string>
 								<key>RubberWindowFrame</key>
 								<string>204 163 1130 702 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>457pt</string>
+							<string>451pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 462}, {922, 199}}</string>
+								<string>{{0, 456}, {922, 205}}</string>
 								<key>RubberWindowFrame</key>
 								<string>204 163 1130 702 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>199pt</string>
+							<string>205pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +398,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>833D188F1052F4D3003DF8DD</string>
+				<string>834F85071055C04B00991189</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>833D18901052F4D3003DF8DD</string>
+				<string>834F85081055C04B00991189</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,7 +539,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>83F6962610518CEC0000271F</string>
-		<string>/Volumes/Users/chris/WorkArea/internal/cvdl/SMSSender/SMSSender.xcodeproj</string>
+		<string>/Volumes/Users/chris/WorkArea/internal/cvdl/SMSSender.git/SMSSender.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>204 163 1130 702 0 0 1440 878 </string>
@@ -565,7 +563,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SMSController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -582,8 +580,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -623,7 +619,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>83F6962610518CEC0000271F</string>
-				<string>833D18911052F4D3003DF8DD</string>
+				<string>834F85091055C04B00991189</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -636,7 +632,7 @@
 			<key>WindowToolGUID</key>
 			<string>83F6962610518CEC0000271F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

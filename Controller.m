@@ -1,6 +1,9 @@
 //
-//  Created by Martin Pittenauer on Tue Oct 14 2003.
-//  Copyright (c) 2003 TheCodingMonkeys. All rights reserved.
+//  SMSSender.h
+//  SMSSender
+//
+//  Created by chris on 04.09.09.
+//  Copyright Christian van der Leeden 2009. All rights reserved.
 //
 
 #import "Controller.h"
