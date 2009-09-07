@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D1AC9600486D14A00FE50C9 /* SMSSender */;
+		addToTargets = (
+			8D1AC9600486D14A00FE50C9 /* SMSSender */,
+		);
+		codeSenseManager = 83F6962910518CEC0000271F /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					683,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					643,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273872078;
+			PBXWorkspaceStateSaveDate = 273872078;
+		};
+		perUserProjectItems = {
+			833D18FF1052FDE4003DF8DD /* PBXTextBookmark */ = 833D18FF1052FDE4003DF8DD /* PBXTextBookmark */;
+			833D191E1053048D003DF8DD /* PBXTextBookmark */ = 833D191E1053048D003DF8DD /* PBXTextBookmark */;
+			833D192410530666003DF8DD /* PBXTextBookmark */ = 833D192410530666003DF8DD /* PBXTextBookmark */;
+			833D192B105307AD003DF8DD /* PBXTextBookmark */ = 833D192B105307AD003DF8DD /* PBXTextBookmark */;
+			833D192C105307AD003DF8DD /* PBXTextBookmark */ = 833D192C105307AD003DF8DD /* PBXTextBookmark */;
+			833D193A10530ADF003DF8DD /* PBXTextBookmark */ = 833D193A10530ADF003DF8DD /* PBXTextBookmark */;
+			83F6963A10518F760000271F /* PlistBookmark */ = 83F6963A10518F760000271F /* PlistBookmark */;
+			83F696671051951E0000271F /* PBXTextBookmark */ = 83F696671051951E0000271F /* PBXTextBookmark */;
+			83F696691051951E0000271F /* PBXTextBookmark */ = 83F696691051951E0000271F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 83F6962810518CEC0000271F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0259C576FE90428111CA0C5A /* SMSSender.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1608, 715}}";
+			sepNavSelRange = "{184, 0}";
+			sepNavVisRange = "{425, 1278}";
+		};
+	};
+	0259C57AFE90428111CA0C5A /* SMSSender.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {861, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1148}";
+		};
+	};
+	32DBCF980370C29C00C91783 /* SMSSender_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {861, 443}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 189}";
+		};
+	};
+	833D18A11052F581003DF8DD /* Controller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {861, 425}}";
+			sepNavSelRange = "{470, 34}";
+			sepNavVisRange = "{0, 616}";
+		};
+	};
+	833D18A21052F581003DF8DD /* Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 871}}";
+			sepNavSelRange = "{980, 0}";
+			sepNavVisRange = "{867, 616}";
+		};
+	};
+	833D18C01052F8FE003DF8DD /* SMSController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {861, 425}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	833D18C11052F8FE003DF8DD /* SMSController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 1183}}";
+			sepNavSelRange = "{191, 0}";
+			sepNavVisRange = "{0, 293}";
+		};
+	};
+	833D18FF1052FDE4003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 833D18C01052F8FE003DF8DD /* SMSController.h */;
+		name = "SMSController.h: 18";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	833D191E1053048D003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 833D18A11052F581003DF8DD /* Controller.h */;
+		name = "Controller.h: 21";
+		rLen = 34;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 0;
+	};
+	833D192410530666003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 833D18A21052F581003DF8DD /* Controller.m */;
+		name = "Controller.m: 39";
+		rLen = 13;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 782;
+	};
+	833D192B105307AD003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 833D18C11052F8FE003DF8DD /* SMSController.m */;
+		name = "SMSController.m: 24";
+		rLen = 18;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 41;
+	};
+	833D192C105307AD003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0259C576FE90428111CA0C5A /* SMSSender.m */;
+		name = "SMSSender.m: 10";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 425;
+	};
+	833D193A10530ADF003DF8DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 833D18A21052F581003DF8DD /* Controller.m */;
+		name = "Controller.m: 42";
+		rLen = 0;
+		rLoc = 980;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 867;
+	};
+	83F6962810518CEC0000271F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	83F6962910518CEC0000271F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	83F6963A10518F760000271F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Volumes/Users/chris/WorkArea/internal/cvdl/SMSSender/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	83F696671051951E0000271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1AC97B0486D23100FE50C9 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	83F696691051951E0000271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* SMSSender_Prefix.pch */;
+		name = "SMSSender_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	8D1AC9600486D14A00FE50C9 /* SMSSender */ = {
+		activeExec = 0;
+	};
+	8D1AC97B0486D23100FE50C9 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {861, 443}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 100}";
+		};
+	};
+}
