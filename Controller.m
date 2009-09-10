@@ -14,16 +14,28 @@
 - (id)init 
 {
     self = [super init];
+	showConfigurePanel = FALSE;
     return self;
 }
 
-- (IBAction)awakeFromNib;
+- (IBAction)awakeFromNib
 {
     [smsText setStringValue:  @""];
 	[phoneNumberDisplay setStringValue: phoneNumber];
-    [[NSApplication sharedApplication] beginSheet:panel modalForWindow:[[NSApplication sharedApplication] mainWindow] modalDelegate:self didEndSelector:@selector(endPanel) contextInfo:nil];
+	if ([[SMSController sharedInstance] isConfigured]) {
+		[self showPanel];
+	} else {
+		[self showConfigurePanel];
+	}
 }
 
+- (void) showPanel {
+	[[NSApplication sharedApplication] beginSheet:panel modalForWindow:[[NSApplication sharedApplication] mainWindow] modalDelegate:self didEndSelector:@selector(endPanel) contextInfo:nil];
+}
+
+- (void) showConfigurePanel {
+	[[NSApplication sharedApplication] beginSheet:configurePanel modalForWindow:[[NSApplication sharedApplication] mainWindow] modalDelegate:self didEndSelector:@selector(endConfigurePanel) contextInfo:nil];
+}
 
 - (IBAction)send:(id)sender {
     ABPerson *thePerson = [self person];
@@ -32,20 +44,33 @@
     [[NSApplication sharedApplication] endSheet:panel];
 }
 
-- (IBAction)cancel:(id)sender
-{
+- (IBAction)cancel:(id)sender {
     [[NSApplication sharedApplication] endSheet:panel];
 }
 
-- (IBAction)configure:(id)sender
-{
+- (IBAction)configure:(id)sender {
+	showConfigurePanel = TRUE;
     [[NSApplication sharedApplication] endSheet:panel];
 }
 
-- (void)endPanel
-{
+- (IBAction) okConfigure:(id)sender {
+    [[NSApplication sharedApplication] endSheet:configurePanel];
+}
+
+
+- (void)endPanel {
 	[panel orderOut:nil];
-	[self autorelease];
+	if (showConfigurePanel) {
+		[self showConfigurePanel];
+	} else {
+		[self autorelease];
+	}
+}
+
+- (void) endConfigurePanel {
+	showConfigurePanel = FALSE;
+	[configurePanel orderOut: nil];
+	[self showPanel];
 }
 
 - (IBAction)setPerson:(ABPerson *)aPerson  andPhoneNumber: (NSString *) aPhoneNumber{

@@ -4,6 +4,7 @@
 //
 //  Created by chris on 04.09.09.
 //  Copyright Christian van der Leeden 2009. All rights reserved.
+//  Licensed under MIT 
 //
 
 #import <AddressBook/AddressBook.h>

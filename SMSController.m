@@ -77,4 +77,9 @@ id sharedSMSController;
 	return self;
 }
 
+- (BOOL) isConfigured {
+	return [self password]  && [self senderIdentifier]  && [self fromEmail] ;
+}
+
+
 @end

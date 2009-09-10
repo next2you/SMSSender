@@ -14,4 +14,5 @@
 }
 + (SMSController *) sharedInstance;
 - send: (NSString *) message to: (NSString *) aPhoneNumber;
+- (BOOL) isConfigured;
 @end

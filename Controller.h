@@ -17,11 +17,16 @@
 	IBOutlet id numberOfCharacters;
 	IBOutlet id phoneNumberDisplay;
 	IBOutlet id configurePanel;
+	BOOL showConfigurePanel;
 }
 
 - (IBAction)send:(id)sender;
 - (IBAction)cancel:(id)sender;
 - (IBAction)configure:(id)sender;
+- (IBAction) okConfigure:(id)sender ;
 - (IBAction)setPerson:(ABPerson *)aPerson andPhoneNumber: (NSString *) aPhoneNumber;
+- (void) showPanel;
+- (void) showConfigurePanel;
+- (void) endPanel;
 - (ABPerson *)person;
 @end
